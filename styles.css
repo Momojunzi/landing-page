@@ -1,0 +1,22 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+#landing-page {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    border: 1px solid black;
+    justify-content: center;
+    gap: 3px;
+}
+
+.container {
+    border: 1px solid black;
+    flex: 0.5;
+}
+
+#content {
+    flex: 4;
+}
