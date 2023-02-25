@@ -27,3 +27,13 @@
     flex:1;
     border: 1px solid black; 
 }
+
+#header {
+    display: flex;
+
+} 
+
+.header-content {
+    flex:1;
+    border: 1px solid black; 
+}
