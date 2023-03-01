@@ -24,6 +24,7 @@
 }
 
 .content-div {
+    display: flex;
     flex:1;
     border: 1px solid black; 
 }
@@ -36,4 +37,35 @@
 .header-content {
     flex:1;
     border: 1px solid black; 
+    display: flex;
+    justify-content: space-evenly;
+
+}
+
+#logo-container {
+    border: 1px solid black;
+    height: 25%;
+    width: 25%;   
+}
+
+#header-logo {
+    align-items: center;
+}
+
+.header-link {
+    flex: 1;
+    border: 1px solid black;
+}
+
+#contentdiv1{
+    justify-content: center;
+    align-items: center;
+    gap: 2.5%;
+}
+
+.contentdiv1-content-container {
+    border: 1px solid black;
+    min-width: 45%;
+    height: 60%;
+    
 }
